@@ -1,0 +1,7 @@
+git config --global user.name Luiz599
+git config --global user.email fernando2nik@gmail.com
+
+CLI - Command Line Interface
+
+Criar um projeto API
+dotnet new webapi -o LuizVeiculos --use-controllers

@@ -5,3 +5,5 @@ CLI - Command Line Interface
 
 Criar um projeto API
 dotnet new webapi -o LuizVeiculos --use-controllers
+
+dotnet add package Swashbuckle.AspNetCore

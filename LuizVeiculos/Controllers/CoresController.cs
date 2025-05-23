@@ -54,7 +54,7 @@ namespace LuizVeiculos.Controllers
         {
             var cor = _db.Cores.Find(id);
             if (cor == null)
-                return NotFound();
+                return NotFound("Cor não encontrada!");
             _db.Cores.Remove(cor);
             _db.SaveChanges();
             return NoContent();
